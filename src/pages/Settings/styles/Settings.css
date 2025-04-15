@@ -1,0 +1,170 @@
+
+.settings_content {
+    display: flex;
+    margin: 20px;
+    align-items: start;
+    width: 60%;
+    flex-direction: column;
+}
+
+.settings_area {
+    display: flex;
+    width: 100%;
+}
+
+.heading_settings {
+    background: rgb(245, 245, 245);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0.9rem 1rem;
+    border-radius: 10px;
+    margin-bottom: 1.25rem;
+    justify-content: space-between;
+}
+
+.settings_icon {
+    cursor: pointer;
+    width: 1.5rem;
+    height: 0.9rem;
+}
+
+.heading_settings_name {
+    font-weight: 500;
+    font-size: 1.8rem;
+    font-family: 'Lato';
+}
+
+.settings_logout {
+    background: #FF5A5A;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: 'Lato';
+    border-radius: 1rem;
+    padding: 0.9rem 1.5rem;
+    width: 18rem;
+    margin-left: 20px;
+    height: 4.2rem;
+}
+
+.settings_second {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.settings_image {
+    width: 16rem;
+    height: 16rem;
+    object-fit: cover;
+}
+
+.settings_second_heading {
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: 'Lato';
+    margin-top: 6px;
+}
+
+.settings_numbers {
+    font-weight: 300;
+    font-size: 1.7rem;
+    font-family: 'Lato';
+    color: #012331;
+}
+
+.iconstar_setting {
+    position: absolute;
+    width: 5rem;
+    height: 2.75rem;
+    bottom: 4.8rem;
+}
+
+/* Tablet Responsive (768px and below) */
+@media (max-width: 768px) {
+    .settings_container {
+        padding: 10px;
+    }
+
+    .settings_area {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .settings_content,
+    .settings_second {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .settings_second {
+        order: -1;
+        /* Move profile section to top */
+        margin-bottom: 20px;
+    }
+
+    .settings_image {
+        width: 14rem;
+        height: 14rem;
+    }
+
+    .heading_settings {
+        padding: 0.8rem 1rem;
+    }
+
+    .heading_settings_name {
+        font-size: 1.6rem;
+    }
+
+    .settings_logout {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .iconstar_setting {
+        bottom: 5.5rem;
+        right: calc(50% - 7rem);
+    }
+}
+
+/* Mobile Responsive (480px and below) */
+@media (max-width: 480px) {
+    .heading_settings {
+        padding: 0.7rem 0.9rem;
+    }
+
+    .heading_settings_name {
+        font-size: 1.4rem;
+    }
+
+    .settings_second_heading {
+        font-size: 1.6rem;
+    }
+
+    .settings_numbers {
+        font-size: 1.3rem;
+    }
+
+    .settings_image {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .settings_logout {
+        font-size: 1.5rem;
+        padding: 0.7rem 1rem;
+        height: auto;
+    }
+
+    .iconstar_setting {
+        width: 4rem;
+        height: 2.2rem;
+        bottom: 4.5rem;
+        right: calc(50% - 6rem);
+    }
+}

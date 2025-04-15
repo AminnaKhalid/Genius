@@ -1,0 +1,342 @@
+.getstarted_main {
+    display: flex;
+    flex-direction: column;
+    background: #012331;
+    min-height: 100vh;
+}
+.activity_line {
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: 'Lato';
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex: 1;
+    min-width: 0;
+}
+.todo_line {
+    width: 100%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+.activity_id {
+    font-weight: 500;
+    font-size: 2rem;
+    color: #012331;
+    font-family: "Lato";
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+.todolist_second {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 15px;
+}
+.todolist_first {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    min-width: 0;
+}
+
+.todolist_button {
+    background: #007D69;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 10px;
+    color: white;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.getstarted_content {
+    min-height: calc(100vh - 80px);
+    padding: 0 15px;
+    background-color: white;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin: 10px;
+}
+
+.todo_container {
+    padding: 20px 15px;
+    box-sizing: border-box;
+    background: rgb(238, 237, 237);
+    border-radius: 20px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.getstarted_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
+}
+
+.getstarted_heading {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 2rem;
+    color: #000000A6;
+}
+
+.getstarted_question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+}
+
+.activity_line {
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: 'Lato';
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex: 1;
+    min-width: 0;
+}
+.todo_item {
+    margin-bottom: 15px;
+}
+
+.todo_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.star_icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    flex-shrink: 0;
+}
+
+.getstarted_description {
+    font-weight: 500;
+    font-size: 1.3rem;
+    letter-spacing: 0.09em;
+    font-family: 'Lato';
+    color: #00000099;
+    line-height: 1.5;
+}
+
+.getstarted_subheading {
+    font-weight: 400;
+    font-size: 2rem;
+    color: black;
+}
+
+.attachment_images {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    gap: 20px;
+}
+
+.attach_image {
+    width: 18rem;
+    height: 18rem;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.textarea_container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+.getstarted_answer {
+    width: 100%;
+    min-height: 150px;
+    padding: 20px;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.answer_icon {
+    position: absolute;
+    top: 10px;
+    right: 1.2rem;
+    width: 1.4rem;
+    height: 30px;
+    cursor: pointer;
+    z-index: 101;
+}
+
+.getstarted_button {
+    text-align: center;
+    margin: auto;
+    background: #007D69;
+    border: 1px solid #00000038;
+    color: white;
+    border-radius: 10px;
+    padding: 13px 17px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.getstarted_button:hover {
+    background: #006a58;
+}
+
+.getstarted_menu {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    width: 11.5rem;
+    padding: 10px 0;
+}
+
+.getstarted_item {
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    gap: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.getstarted_item:last-child {
+    border-bottom: none;
+}
+
+.getstarted_item:hover {
+    background-color: #f5f5f5;
+}
+
+.getstarted_dropdown_icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+
+    .getstarted_heading,
+    .activity_line,
+    .getstarted_subheading {
+        font-size: 1.8rem;
+    }
+
+    .getstarted_description {
+        font-size: 1.2rem;
+    }
+
+    .attach_image {
+        width: 16rem;
+        height: 16rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .getstarted_content {
+        padding: 0 10px;
+        margin: 5px;
+    }
+
+    .getstarted_question {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .attachment_images {
+        flex-direction: column;
+    }
+
+    .attach_image {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+    }
+
+    .getstarted_button {
+        width: 100%;
+        padding: 10px;
+    }
+          .activity_line {
+              white-space: normal;
+              word-break: break-word;
+          }
+}
+
+@media (max-width: 480px) {
+
+    .getstarted_heading,
+    .activity_line,
+    .getstarted_subheading {
+        font-size: 1.6rem;
+    }
+
+    .getstarted_description {
+        font-size: 1.1rem;
+    }
+ .activity_id {
+     font-size: 1.6rem;
+ }
+    .star_icon {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .getstarted_menu {
+        width: 10rem;
+    }
+          .todolist_first {
+              flex-direction: column;
+              align-items: flex-start;
+              gap: 5px;
+          }
+                   .todolist_button {
+                       padding: 0.5rem 0.8rem;
+                       font-size: 0.9rem;
+                   }
+                                   .todo_list {
+                                       display: flex;
+                                       flex-direction: column;
+                                       justify-content: start;
+                                       align-items: start;
+                                       padding: 15px 0;
+                                       flex-wrap: wrap;
+                                       gap: 15px;
+                                   }
+}
+
+@media (max-width: 360px) {
+
+    .getstarted_heading,
+    .activity_line,
+    .getstarted_subheading {
+        font-size: 1.4rem;
+    }
+
+    .getstarted_description {
+        font-size: 1rem;
+    }
+
+    .getstarted_button {
+        font-size: 1rem;
+    }
+}

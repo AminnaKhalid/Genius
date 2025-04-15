@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+.main {
+    background-color: #012331;
+    color: white;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.login_container {
+   height: 100vh;
+    z-index: 2;
+    width: 100%;
+    color: white;
+}
+
+.login_bg {
+    width: 40%;
+    min-height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+   position: absolute;
+   top: 50%;
+    transform: translate(-50%, -50%);
+   left: 50%;
+}
+
+.text_box {
+ object-fit: cover;
+background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    text-align: center;
+    width: 60%;
+    max-width: 500px;
+    z-index: -1;
+    margin-top: 20px;
+    border: #012331;
+    border-radius: 15px;
+    z-index: 1;
+    position: relative;
+
+}
+
+.login_title {
+  display: flex;
+  text-align: center;
+justify-content: center;
+    align-items: center;
+}
+
+
+.login_center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login_image{
+    width: 12rem;
+    height: 9rem;
+}
+
+.subtitle {
+  display: flex;
+  flex-direction: column;
+align-items: start;
+}
+
+.input_login{
+    background: transparent;
+    width: 100%;
+    margin-top: 6px;
+    border : 1px solid #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.label{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    vertical-align: middle;
+    margin-top: 15px;
+}
+.button{
+    background-color: #FED302;
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    font-family: "Lato";
+padding: 0.5em 3em 0.5em 3em;
+color: black;
+text-align: center;
+margin: 15px auto 0 auto ;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+/* responsivenes */
+
+@media (max-width : 480px){
+
+    .login_buttonn{
+        padding: 0.3em 1.5em 0.3em 1.5em;
+    }
+    
+    .text_box{
+        width: 90%;
+    }
+    .login_bg{
+        width: 100%;
+    }
+}

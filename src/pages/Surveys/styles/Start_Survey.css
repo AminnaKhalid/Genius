@@ -1,0 +1,108 @@
+
+
+.start_bg {
+    position: relative;
+    width: 100%;
+}
+
+.start_image_bg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.startsurvey_image {
+    width: 100%;
+    max-width: 20rem;
+    height: auto;
+    aspect-ratio: 20/12;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.start_content {
+    margin: 6px;
+}
+
+.privacy_head {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+}
+
+.privacy_text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Lato';
+    color: #0000006E;
+    margin-bottom: 12px;
+}
+
+.start_form {
+    background: #efeeee;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.start_form_input {
+    border: none;
+    border-bottom: 2px solid #0000006E;
+    background: transparent;
+    padding: 8px 0;
+    font-size: 1rem;
+    outline: none;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.start_form_input::placeholder {
+    color: #0000006E;
+    opacity: 1;
+}
+
+sup {
+    color: #FED302;
+    font-size: 1rem;
+}
+
+.survey_submit {
+    background: #007D69;
+    font-family: 'Lato';
+    letter-spacing: 2.29px;
+    font-size: 1.2rem;
+    display: flex;
+    margin: auto;
+    padding: 8px 30px 8px 30px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .startsurvey_image {
+        max-width: 15rem;
+    }
+        .start_image_bg {
+            width: 100%;
+            height: 30vh;
+            display: block;
+        }
+}
+
+@media (max-width: 480px) {
+    .startsurvey_image {
+        max-width: 9rem;
+    }
+        .start_image_bg {
+            width: 100%;
+            height: 30vh;
+            display: block;
+        }
+}

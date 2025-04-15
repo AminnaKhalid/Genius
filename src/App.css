@@ -1,0 +1,25 @@
+.container_col{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.mmain {
+    display: flex;
+    flex-direction: column;
+    background: #012331;
+    min-height: 100vh;
+}
+
+.ccontainer {
+    min-height: calc(100vh - 80px);
+    padding: 0px 25px;
+    background-color: white;
+    border-radius: 30px;
+    margin: 10px;
+    color: black;
+
+}
+

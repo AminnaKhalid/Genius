@@ -1,0 +1,9 @@
+.heading {
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #012331;
+    border-bottom: 4px solid #FED302;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-family: 'Lato';
+}

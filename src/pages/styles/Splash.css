@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.splash-video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.splash_logo{
+    width: 300px;
+    height: 175px;
+    margin: auto;
+text-align: center;
+}
+
+.splash_heading{
+    font-weight: 500px;
+    font-size: 100px;
+color: #FFFFFF;
+font-family: "Playfair Display";
+line-height: 90%;
+letter-spacing: 10%;
+}
+.splash_subheading{
+    font-weight: 400;
+    font-size: 32px;
+line-height: 144%;
+letter-spacing: 35%;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: #FFFFFF;
+font-family: "Lato";
+margin-top: 20px;
+}
+
+.login_button{
+    flex-direction: row;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.login{
+    margin-right: 15px;
+    color: #FED302;
+    font-weight: 200;
+    font-size: 36px;
+    letter-spacing: 20%;
+    font-family: "Lato";
+}
+
+.splash_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 80px;
+    width: 100%;
+        height: 100vh;
+        overflow: hidden;
+}
+
+@media (max-width: 1024px) {
+    .splash_heading {
+        font-size: 80px;
+    }
+
+    .splash_subheading {
+        font-size: 28px;
+    }
+
+    .splash_content {
+        padding-left: 60px;
+    }
+
+    .splash_logo {
+        width: 250px;
+        height: 145px;
+    }
+}
+
+/* For large tablets */
+@media (max-width: 768px) {
+    .splash_heading {
+        font-size: 60px;
+    }
+
+    .splash_subheading {
+        font-size: 24px;
+    }
+
+    .splash_content {
+        padding-left: 40px;
+    }
+
+    .login {
+        font-size: 30px;
+    }
+}
+/* For mobile devices - Centered version */
+@media (max-width: 480px) {
+    .splash_content {
+        padding-left: 0;
+        align-items: center;
+        text-align: center;
+        justify-content: flex-start;
+        padding-top: 40px;
+    }
+
+    .splash_heading {
+        font-size: 42px;
+        letter-spacing: 5%;
+        margin-top: 30px;
+        line-height: 100%;
+    }
+
+    .splash_subheading {
+        font-size: 18px;
+        letter-spacing: 15%;
+        margin-top: 20px;
+        padding: 0 25px;
+        line-height: 140%;
+    }
+
+    .splash_logo {
+        width: 200px;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .login_button {
+        margin-top: 40px;
+        justify-content: center;
+    }
+
+    .login {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 320px) {
+    .splash_heading {
+        font-size: 36px;
+    }
+
+    .splash_subheading {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+
+    .login {
+        font-size: 22px;
+    }
+}

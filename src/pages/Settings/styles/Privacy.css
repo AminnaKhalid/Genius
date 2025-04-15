@@ -1,0 +1,29 @@
+
+.privacy_main{
+    display: flex;
+        flex-direction: column;
+        background: #012331;
+        min-height: 100vh;
+}
+.privacy_head {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+}
+
+.privacy_text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Lato';
+    color: #0000006E;
+    margin-bottom: 12px;
+}
+
+.privacy_container{
+    min-height: calc(100vh - 80px);
+        padding: 0px 15px;
+        background-color: white;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+        margin: 10px;
+}
