@@ -4,8 +4,9 @@ import Heading from "../../components/Heading";
 import Navbar from "../../components/Navbar";
 import product from "./assets/starfall1.png";
 import cartstar from "./assets/cartstar.png";
-import plus from "./assets/plus.png"
-import minus from "./assets/minus.png"
+import plus from "./assets/plus.png";
+import minus from "./assets/minus.png";
+
 const Cart = () => {
   return (
     <>
@@ -30,7 +31,7 @@ const Cart = () => {
                 </div>
                 <div className="cart_id">
                   <img src={plus} alt="" className="add_icon" />
-                  <span className="py-2">2</span>
+                  <span className="quantity">2</span>
                   <img src={minus} alt="" className="add_icon" />
                 </div>
               </div>

@@ -61,8 +61,8 @@ justify-content: center;
 }
 
 .login_image{
-    width: 12rem;
-    height: 9rem;
+    width: 8rem;
+    height: 3.5rem;
 }
 
 .subtitle {
@@ -104,7 +104,59 @@ justify-content: center;
 align-items: center;
 }
 
+/* Add these new styles to your existing CSS */
+.input-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+}
 
+.input-icon4 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+}
+.input-icon3 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+}
+.input-icon2 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+}
+.input-icon1 {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+}
+
+.input-icon4.left {
+  left: 10px;
+}
+
+.input-icon3.right {
+  right: 13px;
+}
+.input-icon2.left {
+    left: 14px;
+}
+
+.input-icon1.right {
+    right: 14px;
+}
+
+.input_login {
+  background: transparent;
+  width: 100%;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  padding: 10px 40px; /* Increased padding to accommodate icons */
+  color: white;
+}
 
 /* responsivenes */
 

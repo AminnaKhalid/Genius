@@ -177,9 +177,13 @@
     margin-top: auto;
     padding: 1rem 0;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
 }
 
-.mobile-nav-profile img {
+.img {
     width: 3.5rem;
     height: 3.5rem;
     border-radius: 50%;
